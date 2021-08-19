@@ -2,7 +2,6 @@ import React from 'react';
 import Carousel, { consts } from "react-elastic-carousel";
 import "../App.css";
 import Charades from "../img/Charades.png"
-import Background from "../img/curve.svg";
 import Recipes from "../img/Recipes.png"
 import TV from "../img/Tv-Show.png"
 import Portfolio from "../img/portfolio.png";

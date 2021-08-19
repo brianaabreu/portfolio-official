@@ -4,7 +4,6 @@ import "../App.css";
 import "../bttn.min.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Card from "./card";
-import Slider from "./slider";
 
 
 

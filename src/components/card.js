@@ -6,17 +6,13 @@ import CSS from "../img/css.svg";
 import React1 from "../img/react.svg";
 import Python from "../img/python.svg";
 import SASS from "../img/sass.svg";
-import Slider from "./slider";
-import { Link, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+
 
 
 
 const Card = props => {
 
     var element = document.getElementById("box");
-
-    //framer-motion 
-    //buttons
 
     return (
         <div className="container d-flex align-items-center">

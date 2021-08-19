@@ -1,38 +1,171 @@
-.App {
+body {
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.headContainer {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  height: 100%;
+}
+
+.navContain {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #FBFBFB;
+}
+
+.Logo {
+  margin-top: 0px;
+  margin-bottom: 55px;
+  width: 220px;
+}
+
+.midHeader {
+  margin-top: -20px;
+  width: 100%;
+}
+
+.navBar {
+  margin-bottom: 58px;
+  font-family: 'Playfair Display', serif;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 60%;
+  justify-content: space-evenly;
+}
+
+.navBar button {
+  margin-bottom: 65px;
+
+}
+
+.right {
+  background-image: url('/src/img/Meteor.svg');
+  display: flex;
+}
+
+.nav {
+  justify-content: center;
+}
+
+.jumbotron {
+ background-color: #8b8b8b86;
+}
+
+.SVGs {
+  width: 3%;
+}
+
+.Slider {
+  font-family: sans-serif;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  font-family: 'Playfair Display', serif;
+
+}
+
+.projectTitle {
+  font-family: 'Playfair Display', serif;
+  font-size: 55px;
+  margin-bottom: 25px;
+  margin-top: 50px;
+}
+
+.card {
+  align-content: center;
+  max-width: 340px;
+  height: 450px;
+  box-shadow: 2px black;
+}
+
+.card-image {
+  align-items: center;
+}
+
+.btnProject {
+  font-family: 'Playfair Display', serif;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.card-title {
+  font-size: 24px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.partTwo {
+  background-image: url('./img/SPIRAL.PNG.png');
+  background-repeat: repeat-x;
+  background-position: center;
+  background-position-y: center;
+  height: 93vh;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.btns {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-evenly;
+  width:100%;
+  align-self: center;
+  
 }
 
-.App-link {
-  color: #61dafb;
+.btnProject{
+  text-decoration: none;
+  color: blue;
+  font-style: bold;
+  margin-top: 15px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button.rec-dot{
+  background-color: rgb(71, 71, 71);
+  box-shadow: 0 0 1px 3px  hsla(0, 0%, 82%, 0.438);
+  margin-top: 25px;
+}
+
+button.rec-dot:hover, button.rec-dot:active, button.rec-dot:focus  {
+  box-shadow: 0 0 .5px .5px rgba(97, 97, 97, 0.5);
+}
+
+.part3Container {
+  background-image: url('./img//laptop.png');
+  display: grid;
+  height: 47vw;
+  grid-template-columns: 1fr 1fr;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;}
+
+
+.cardAbout {
+  max-width: 550px;
+  max-height: 390px;
+  margin-left: 70px;
+  padding:0;
+  vertical-align: middle;
+}
+
+.gitButton {
+  background-color: rgb(223, 223, 223);
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.gitButton:hover {
+  background-color: rgba(128, 128, 128, 0.493);
+}
+
+.list_unstyled {
+  text-decoration: none;
+}
+
+.footer{
+  font-family: 'Playfair Display', serif;
+
 }

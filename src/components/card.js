@@ -16,11 +16,11 @@ const Card = props => {
 
     return (
         <div className="container d-flex align-items-center">
-            <Jumbotron className="jumbotron" style={{ borderRadius: '25px', backgroundColor: "#8b8b8b86", color: "white" }}>
+            <Jumbotron className="jumbotron" style={{ borderRadius: '25px', backgroundColor: "#8b8b8b86", color: "white", padding:"50px" }}>
                 <h1 className="display-3">Hello, world!</h1>
                 <p className="lead">Welcome to my portfolio. My name is Briana and I currently am enrolled in Lambda School to become a web developer.</p>
                 <hr className="my-2" />
-                <p style={{ display: 'flex', justifyContent: 'space-around', marginBottom: '30px' }}>
+                <p style={{ display: 'flex', justifyContent: 'space-around', marginBottom: '50px' }}>
                     <img src={HTML} className="SVGs" />
                     <img src={CSS} className="SVGs" />
                     <img src={JS} className="SVGs" />

@@ -2,8 +2,10 @@ import React from 'react';
 import Carousel, { consts } from "react-elastic-carousel";
 import "../App.css";
 import Charades from "../img/Charades.png"
-import Recipes from "../img/Recipes.png"
-import TV from "../img/Tv-Show.png"
+import Recipes from "../img/cc.png"
+import dog from "../img/dog.png"
+
+import TV from "../img/wr.png"
 import Portfolio from "../img/portfolio.png";
 
 const breakPoints = [
@@ -64,15 +66,15 @@ const Slider = () => {
                                 <div class="card">
                                     <div class="card-image" style={{ textAlignLast: 'center' }} >
                                         <img src={Recipes} style={{ maxWidth: '340px', padding: '20px', height: '215px' }} />
-                                        <span class="card-title">Family Recipes</span>
+                                        <span class="card-title">The Writing Room</span>
 
                                     </div>
                                     <div class="card-content" style={{ textAlign: '-webkit-center' }} >
-                                        <p>Tired of forgetting old family recipes?<br></br> Here is a site where you can finally store all recipes that are kept secret in your family!<br></br> Creating an account allows you to<br></br> add, edit and delete any recipes.</p>
+                                        <p>A fun site to post pictures and share with<br></br> the world, add a description and tags<br></br> with the ability to like others posts!<br></br></p>
                                     </div>
                                     <div className="btns">
-                                        <a class="btnProject">View Project</a>
-                                        <a class="btnProject">View Repo</a>
+                                        <a href="https://final-writingroom.herokuapp.com/" class="btnProject">View Project</a>
+                                        <a href="https://github.com/brianaabreu/portfolio-official" class="btnProject">View Repo</a>
                                     </div>
                                 </div>
                             </div>
@@ -82,15 +84,33 @@ const Slider = () => {
                                 <div class="card">
                                     <div class="card-image" style={{ textAlignLast: 'center' }} >
                                         <img src={TV} style={{ maxWidth: '340px', padding: '20px', height: '215px' }} />
-                                        <span class="card-title">Stranger Things Info</span>
+                                        <span class="card-title">Creamy Creations</span>
 
                                     </div>
                                     <div class="card-content" style={{ textAlign: '-webkit-center' }} >
-                                        <p>Love the show Stranger Things? Using this simple app, you can read info about each season and episode.</p>
+                                        <p>Have a tasty bite of ice cream with this app introducing an ice cream company.</p>
                                     </div>
                                     <div className="btns">
-                                        <a class="btnProject">View Project</a>
-                                        <a class="btnProject">View Repo</a>
+                                        <a href="https://creamy-creations.herokuapp.com/" class="btnProject">View Project</a>
+                                        <a href="https://github.com/brianaabreu/creamy-creations" class="btnProject">View Repo</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row" >
+                            <div class="col s12 m6">
+                                <div class="card">
+                                    <div class="card-image" style={{ textAlignLast: 'center' }} >
+                                        <img src={dog} style={{ maxWidth: '340px', padding: '20px', height: '215px' }} />
+                                        <span class="card-title">Adopt a Dog!</span>
+
+                                    </div>
+                                    <div class="card-content" style={{ textAlign: '-webkit-center' }} >
+                                        <p>simple page to post dogs for adoption or inquire about adopting dogs, includes login, sign up, donation form , and new post form which is all sent to SQLITE3 database.</p>
+                                    </div>
+                                    <div className="btns">
+                                        <a href="https://final-adoptadog.herokuapp.com/" class="btnProject">View Project</a>
+                                        <a href="https://github.com/brianaabreu/final-adoptadog" class="btnProject">View Repo</a>
                                     </div>
                                 </div>
                             </div>

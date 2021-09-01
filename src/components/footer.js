@@ -21,10 +21,10 @@ const Footer = () => {
                             <h5 className="title">Links</h5>
                             <ul>
                                 <li className="list-unstyled">
-                                    <a href="#!">Github</a>
+                                    <a href="https://github.com/brianaabreu">Github</a>
                                 </li>
                                 <li className="list-unstyled">
-                                    <a href="#!">LinkedIn</a>
+                                    <a href="https://www.linkedin.com/in/briana-abreu-aa8886199/">LinkedIn</a>
                                 </li>
                             </ul>
                         </MDBCol>
@@ -32,7 +32,7 @@ const Footer = () => {
                 </MDBContainer>
                 <div className="footer-copyright text-center py-3">
                     <MDBContainer fluid>
-                        &copy; {new Date().getFullYear()} Copyright: <a href="brianaabreu.com"> brianaabreu.com </a>
+                        &copy; {new Date().getFullYear()} Copyright: <a href="https://brianas-portfolio.netlify.app/"> brianaabreu.com </a>
                     </MDBContainer>
                 </div>
             </MDBFooter>

@@ -12,7 +12,7 @@ const AboutSnippet = () => {
 
 
     return (
-        <div>
+        <div id="about">
             <div className="background3" style={{ filter: 'blur(8px)' }}></div>
             <div className="part3Container">
                 <div>
@@ -23,12 +23,12 @@ const AboutSnippet = () => {
                         <CardBody>
                             <CardTitle>About Me</CardTitle>
                             <CardText>
-                                Sit est ea sit esse adipisicing officia
-                                ad sit magna sint officia occaecat ex. Ad voluptate
-                                esse Lorem adipisicing non officia dolor exercitation.
-                                Veniam ut ex quis id magna ex culpa duis exercitation.
-                                Qui ex et nulla fugiat ipsum labore nisi amet cupidatat
-                                ipsum commodo anim anim culpa.
+                                My name is Briana Abreu, an aspiring web developer who has been passionate about development
+                                since the age of 11. I have been following my dream ever since and every day
+                                I am proud to say I learn more and get closer. I enjoy using React
+                                and Node for my projects, so I hope to pursue my career using what I know most, but I am a quick learner.<br></br><br></br>
+                                
+                                🌱 I graduated Lambda School in May 2021.
                             </CardText>
                             <a href="https://github.com/brianaabreu">
                                 <button className="gitButton" style={{ width: '30%', padding: '5px', paddingBottom: '9px' }}>
@@ -36,7 +36,7 @@ const AboutSnippet = () => {
                                 </button>
                             </a>
                         </CardBody>
-                        <CardFooter style={{maxWidth:'550px'}}>Footer</CardFooter>
+                        <CardFooter style={{maxWidth:'550px'}}>📫 How to reach me: <a style={{textDecoration:'none'}} href="https://www.linkedin.com/feed/?msgOverlay=true">Linkedin</a></CardFooter>
                     </Card>
                 </div>
             </div>

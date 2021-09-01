@@ -74,7 +74,7 @@ const Slider = () => {
                                     </div>
                                     <div className="btns">
                                         <a href="https://final-writingroom.herokuapp.com/" class="btnProject">View Project</a>
-                                        <a href="https://github.com/brianaabreu/portfolio-official" class="btnProject">View Repo</a>
+                                        <a href="https://github.com/brianaabreu/final-writingroom" class="btnProject">View Repo</a>
                                     </div>
                                 </div>
                             </div>
@@ -106,7 +106,7 @@ const Slider = () => {
 
                                     </div>
                                     <div class="card-content" style={{ textAlign: '-webkit-center' }} >
-                                        <p>simple page to post dogs for adoption or inquire about adopting dogs, includes login, sign up, donation form , and new post form which is all sent to SQLITE3 database.</p>
+                                        <p>A simple page to post dogs for adoption or <br></br>inquire about adopting dogs, includes login,<br></br> sign up, donation form , and new post form<br></br> which is all sent to SQLITE3 database.</p>
                                     </div>
                                     <div className="btns">
                                         <a href="https://final-adoptadog.herokuapp.com/" class="btnProject">View Project</a>

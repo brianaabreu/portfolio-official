@@ -2,7 +2,7 @@ import Slider from "./slider";
 import "../App.css";
 const Projects = () => {
     return(
-        <div>
+        <div id="projects">
             <Slider/>
         </div>
     )

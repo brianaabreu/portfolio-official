@@ -7,6 +7,7 @@ import React1 from "../img/react.svg";
 import Python from "../img/python.svg";
 import SASS from "../img/sass.svg";
 import { Link } from 'react-scroll';
+import arrow from "../img/arrowdown.png"
 
 
 
@@ -29,13 +30,14 @@ const Card = props => {
                     <img src={SASS} className="SVGs" />
                     <img src={Python} className="SVGs" /></p>
                 <p className="lead" style={{ marginBottom: '-30px' }}>
-                <Link
-                        activeClass="active"
+                My Projects
+                    <Link activeClass="active"
+                        
                         to="projects"
                         spy={true}
                         smooth={true}
                         offset={-70}
-                        duration={500}><Button className="myProjectsBtn" style={{ padding: '9px', borderRadius: '3PX' }} color="light">My Projects</Button></Link>
+                        duration={500}><img className="arrowDown bounce-5" src={arrow}></img></Link>
                 </p>
             </Jumbotron>
         </div>

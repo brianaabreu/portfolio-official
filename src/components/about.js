@@ -6,6 +6,8 @@ import {
 import Github from "../img/github.svg"
 import Github1 from "../img/gitText.svg"
 import "../App.css"
+import linkedin from "../img/linkedin.svg"
+import mail from "../img/mail.svg"
 
 
 const AboutSnippet = () => {
@@ -36,7 +38,13 @@ const AboutSnippet = () => {
                                 </button>
                             </a>
                         </CardBody>
-                        <CardFooter style={{maxWidth:'550px'}}>📫 How to reach me: <a style={{textDecoration:'none'}} href="https://www.linkedin.com/feed/?msgOverlay=true">Linkedin</a></CardFooter>
+                        <CardFooter style={{ maxWidth: '550px' }}>
+                            How to reach me:
+                            <a style={{ textDecoration: 'none' }} href="https://www.linkedin.com/feed/?msgOverlay=true"><img style={{marginLeft: '8px', marginRight:"8px"}} src={linkedin}></img></a>
+                            <a href="mailto:briana.abreu01@gmail.com" style={{ textDecoration: 'none' }} ><img style={{maxWidth: '7%'}} src={mail}></img></a>
+
+                        
+                        </CardFooter>
                     </Card>
                 </div>
             </div>

@@ -43,6 +43,47 @@ body {
 
 }
 
+.lead{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.arrowDown{
+  width: 4%;
+  color:white;
+  
+}
+
+.arrowDown:hover {
+  align-self: flex-end;
+  animation-duration: 2s;
+  margin: 0 auto 0 auto;
+  animation-iteration-count: infinite;
+
+  transform-origin: bottom;
+}
+.bounce-5:hover {
+  animation-name: bounce-5;
+  animation-timing-function: ease;
+}
+@keyframes bounce-5 {
+  0%   { transform: scale(1,1)    translateY(0); }
+  10%  { transform: scale(1.1,.9) translateY(0); }
+  30%  { transform: scale(.9,1.1) translateY(-8px); }
+  50%  { transform: scale(1,1)    translateY(0); }
+  57%  { transform: scale(1,1)    translateY(-7px); }
+  64%  { transform: scale(1,1)    translateY(0); }
+  100% { transform: scale(1,1)    translateY(0); }
+}
+
+.myProjectsBtn{
+  text-align: center;
+  background-color: none;
+  text-decoration: none;
+  color:white;
+}
+
 .right {
   background-image: url('/src/img/Meteor.svg');
   display: flex;
@@ -161,13 +202,30 @@ button.rec-dot:hover, button.rec-dot:active, button.rec-dot:focus  {
   background-color: rgba(128, 128, 128, 0.493);
 }
 
-.list_unstyled {
-  text-decoration: none;
-}
-
 .footer{
   font-family: 'Playfair Display', serif;
+  text-align: center;
+}
 
+.title {
+  font-size: 25px;
+}
+
+.divider{
+  background-color: rgb(192, 192, 192);
+  width: 50%;
+  height: 2px;
+}
+
+.titleContainer{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  text-align: -webkit-center;
+}
+.footerLinks {
+  width: 5%;
+  margin: 10px;
 }
 
 @media only screen and (max-width:600px) {
@@ -243,6 +301,10 @@ button.rec-dot:hover, button.rec-dot:active, button.rec-dot:focus  {
     height: 90%;
     font-family: 'Playfair Display', serif;
   }
+
+  .pointers{
+    display:none;
+  }
   
   .projectTitle {
     font-family: 'Playfair Display', serif;
@@ -277,7 +339,7 @@ button.rec-dot:hover, button.rec-dot:active, button.rec-dot:focus  {
     background-position: center;
     background-position-y: center;
     height: 93vh;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 
   }
   
@@ -340,12 +402,34 @@ button.rec-dot:hover, button.rec-dot:active, button.rec-dot:focus  {
   
   .list_unstyled {
     text-decoration: none;
+    display: flex;
+    flex-direction: row;
 
   }
   .footer{
     font-family: 'Playfair Display', serif;
-    
+
   
+  }
+
+  .title {
+    font-size: 22px;
+  
+  }
+
+  .titleContainer{
+    text-align: -webkit-center;
+  }
+
+  .divider{
+    background-color: rgb(192, 192, 192);
+    width: 50%;
+    height: 2px;
+  }
+
+  .footerLinks {
+    width: 8%;
+    margin: 10px;
   }
 
 }

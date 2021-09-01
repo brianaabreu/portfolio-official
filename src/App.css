@@ -169,3 +169,183 @@ button.rec-dot:hover, button.rec-dot:active, button.rec-dot:focus  {
   font-family: 'Playfair Display', serif;
 
 }
+
+@media only screen and (max-width:600px) {
+  
+  .headContainer {
+    display: flex;
+    flex-direction: column;}
+  
+  .navContain {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #FBFBFB;
+    justify-content: center;
+  }
+  
+  .Logo {
+    margin-top: 0px;
+    margin-bottom: 15px;
+    width: 150px;
+  }
+  
+  .midHeader {
+    margin-top: -20px;
+    width: 100%;
+  }
+  
+  .navBar {
+    text-align: center;
+    margin-bottom: 18px;
+    font-family: 'Playfair Display', serif;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: space-evenly;
+  }
+
+  .navBar a{
+    margin-bottom: -41px;
+  }
+  
+  .right {
+    display: flex;
+    background-image: none;
+    
+  }
+  
+  .nav {
+    justify-content: center;
+  }
+  
+  .jumbotron {
+   background-color: #50505086;
+  }
+
+  .lead{
+    text-align: center;
+  }
+
+  .display-3{
+    text-align: center;
+  }
+  
+  .SVGs {
+    width: 9%;
+    margin-bottom: -30px;
+  }
+  
+  .Slider {
+    font-family: sans-serif;
+    flex-direction: column;
+    justify-content: center;
+    height: 90%;
+    font-family: 'Playfair Display', serif;
+  }
+  
+  .projectTitle {
+    font-family: 'Playfair Display', serif;
+    font-size: 55px;
+    margin-bottom: 25px;
+    margin-top: 50px;
+  }
+  
+  .card {
+    align-content: center;
+    max-width: 340px;
+    height: 450px;
+    box-shadow: 2px black;
+  }
+  
+  .card-image {
+    align-items: center;
+  }
+  
+  .btnProject {
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+  }
+  
+  .card-title {
+    font-size: 24px;
+  }
+  
+  .partTwo {
+    background-image: url('./img/SPIRAL.PNG.png');
+    background-repeat: repeat-x;
+    background-position: center;
+    background-position-y: center;
+    height: 93vh;
+    margin-bottom: 50px;
+
+  }
+  
+  .btns {
+    display: flex;
+    justify-content: space-evenly;
+    width:100%;
+    align-self: center;
+    
+  }
+  
+  .btnProject{
+    text-decoration: none;
+    color: blue;
+    font-style: bold;
+    margin-top: 15px;
+  }
+  
+  button.rec-dot{
+    background-color: rgb(71, 71, 71);
+    box-shadow: 0 0 1px 3px  hsla(0, 0%, 82%, 0.438);
+    margin-top: 5px;
+    margin-bottom: 50px;
+  }
+  
+  button.rec-dot:hover, button.rec-dot:active, button.rec-dot:focus  {
+    box-shadow: 0 0 .5px .5px rgba(97, 97, 97, 0.5);
+  }
+  
+  .part3Container {
+    background-image: none;
+    display: flex;
+    height: 100%;
+    margin-bottom: 10px;;
+  }
+  
+  
+  .cardAbout {
+    border-radius: 0px;
+    max-width: 100%;
+    max-height: 120%;
+    margin-left: 0;
+    padding:0;
+    border:none;
+    vertical-align: middle;
+  }
+  
+  .gitButton {
+    background-color: rgb(223, 223, 223);
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    transition: 0.3s;
+    display: none;
+  }
+  
+  .gitButton:hover {
+    background-color: rgba(128, 128, 128, 0.493);
+  }
+  
+  .list_unstyled {
+    text-decoration: none;
+
+  }
+  .footer{
+    font-family: 'Playfair Display', serif;
+    
+  
+  }
+
+}

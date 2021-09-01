@@ -35,7 +35,7 @@ const Card = props => {
                         spy={true}
                         smooth={true}
                         offset={-70}
-                        duration={500}><Button style={{ padding: '9px', borderRadius: '3PX' }} color="light">My Projects</Button></Link>
+                        duration={500}><Button className="myProjectsBtn" style={{ padding: '9px', borderRadius: '3PX' }} color="light">My Projects</Button></Link>
                 </p>
             </Jumbotron>
         </div>

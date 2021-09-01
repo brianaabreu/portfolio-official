@@ -19,7 +19,7 @@ const Footer = () => {
                         </MDBCol>
                         <MDBCol md="6">
                             <h5 className="title">Links</h5>
-                            <ul>
+                            <ul style={{marginLeft:'-30px'}}>
                                 <li className="list-unstyled">
                                     <a href="https://github.com/brianaabreu">Github</a>
                                 </li>

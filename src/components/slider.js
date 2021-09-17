@@ -7,6 +7,8 @@ import dog from "../img/dog.png"
 
 import TV from "../img/wr.png"
 import Portfolio from "../img/portfolio.png";
+import Study from "../img/studypal.png";
+
 
 const breakPoints = [
     { width: 1, itemsToShow: 1 },
@@ -52,7 +54,7 @@ const Slider = () => {
 
                                     </div>
                                     <div class="card-content" style={{ textAlign: '-webkit-center', fontSize: '15px' }} >
-                                        <p>A fun Charades game developed by my dad<br></br> and me. A very user friendly game with simple instructions: Choose your difficulty (Easy, Medium, Hard). Cards turn by a timer every<br></br> 15 sec. Timer sound and buzzer<br></br> for when times up.</p>
+                                        <p>A fun Charades game developed by my dad<br></br> and me. A very user friendly game with simple instructions: Choose your difficulty (Easy, Medium, Hard). Cards turn by a timer every 15 sec. Timer <br></br>sounds and buzzers for when times up.</p>
                                     </div>
                                     <div className="btns">
                                         <a href="https://charades-game-by-martin.netlify.app/" class="btnProject">View Project</a>
@@ -111,6 +113,24 @@ const Slider = () => {
                                     <div className="btns">
                                         <a href="https://final-adoptadog.herokuapp.com/" class="btnProject">View Project</a>
                                         <a href="https://github.com/brianaabreu/final-adoptadog" class="btnProject">View Repo</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row" >
+                            <div class="col s12 m6">
+                                <div class="card">
+                                    <div class="card-image" style={{ textAlignLast: 'center' }} >
+                                        <img src={Study} style={{ maxWidth: '340px', padding: '20px', height: '215px' }} />
+                                        <span class="card-title">Studypal</span>
+
+                                    </div>
+                                    <div class="card-content" style={{ textAlign: '-webkit-center' }} >
+                                        <p>A simple page to create flashcards for <br></br>whichever purpose and to study as long as <br></br> you need to in order to pass a test or master a subject! Built with ReactJS, SCSS, Nodejs, Mongodb, Redux.</p>
+                                    </div>
+                                    <div className="btns">
+                                        <a href="https://studyingpal.herokuapp.com/" class="btnProject">View Project</a>
+                                        <a href="https://github.com/brianaabreu/study-pal" class="btnProject">View Repo</a>
                                     </div>
                                 </div>
                             </div>

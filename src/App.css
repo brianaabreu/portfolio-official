@@ -151,7 +151,8 @@ body {
   justify-content: space-evenly;
   width:100%;
   align-self: center;
-  
+  margin-top: auto;
+  margin-bottom: 20px;
 }
 
 .btnProject{

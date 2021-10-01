@@ -75,7 +75,7 @@ const Slider = () => {
                                         <p>A fun site to post pictures and share with<br></br> the world, add a description and tags<br></br> with the ability to like others posts!<br></br></p>
                                     </div>
                                     <div className="btns">
-                                        <a href="https://final-writingroom.herokuapp.com/" class="btnProject">View Project</a>
+                                        <a href="https://writingroomblog.netlify.app/" class="btnProject">View Project</a>
                                         <a href="https://github.com/brianaabreu/final-writingroom" class="btnProject">View Repo</a>
                                     </div>
                                 </div>
@@ -117,7 +117,7 @@ const Slider = () => {
                                 </div>
                             </div>
                         </div>
-                        <div class="row" >
+                        {/* <div class="row" >
                             <div class="col s12 m6">
                                 <div class="card">
                                     <div class="card-image" style={{ textAlignLast: 'center' }} >
@@ -134,7 +134,7 @@ const Slider = () => {
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                         <div class="row" >
                             <div class="col s12 m6">
                                 <div class="card">

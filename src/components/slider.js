@@ -147,8 +147,8 @@ const Slider = () => {
                                         <p>You're looking at it! I built this project using react, along with reactstrap.</p>
                                     </div>
                                     <div className="btns">
-                                        <a class="btnProject">View Project</a>
-                                        <a class="btnProject">View Repo</a>
+                                        <a href="https://brianas-portfolio.netlify.app/" class="btnProject">View Project</a>
+                                        <a href="https://github.com/brianaabreu/portfolio-official" class="btnProject">View Repo</a>
                                     </div>
                                 </div>
                             </div>
